@@ -82,6 +82,7 @@ public class Main
 		Scanner input =new Scanner(System.in);
 		int size_of_array;
 		
+		System.out.print("Enter the size of array ");
         // input the size of array 
 		size_of_array =input.nextInt();
 		
