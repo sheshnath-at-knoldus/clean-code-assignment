@@ -107,12 +107,12 @@ public class Main
 
 		// coping array from first to second array
 
-		for(int i=0;i<size_of_array;i++)
+		for(int index=0;index<size_of_array;index++)
 		{
-		    second_array[i]=first_array[i];
+		    second_array[index]=first_array[index];
 		}
 		
-		//sorting array using merge sort method 
+		//calling mergesort method  
         object.mergeSort(second_array, 0, size_of_array - 1);
 		
 		
@@ -122,8 +122,11 @@ public class Main
 		System.out.print("[");
 
         /*comparing two arrays and printing the indexes according to the sorted array */
+		
+		//iterating through first array
 		for(int i=0;i<size_of_array;i++)
 	    {
+			//iterarting through second array
 		   for(int j=0;j<size_of_array;j++)
 		   {
 	
