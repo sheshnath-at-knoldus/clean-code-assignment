@@ -1,6 +1,6 @@
 
 import java.util.*;
-import jav.lang.*;
+import java.lang.*;
 
 public class Main
 {
